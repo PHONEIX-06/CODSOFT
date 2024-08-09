@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEEOAMJYOTI MOHANTY - Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <header>
+        <div class="header-content">
+            <h1>Deepamjyoti Mohanty</h1>
+            <p>Motivated Web Developer & Embedded C Programmer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="my image 2.jpg" alt="DEEPAMJYOTI MOHANTY">
+            <p>
+                I am a motivated web developer with practical experience in full-stack web development and embedded C programming. At CodSoft, I developed projects including a job board, blogging platform, and project management tool using React, Node.js, and MongoDB. I also completed an embedded C programming project at C.V. Raman Global University, showcasing my versatility and technical proficiency.
+            </p>
+        </div>
+    </section>
+
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill"><i class="fas fa-code"></i><span>C, CSS, HTML, Java, JavaScript, Embedded C</span></div>
+            <div class="skill"><i class="fas fa-tools"></i><span>Git, GitHub, Visual Studio Code, STM32IDE</span></div>
+            <div class="skill"><i class="fas fa-database"></i><span>MongoDB, Oracle, PostgreSQL</span></div>
+            <div class="skill"><i class="fas fa-user-friends"></i><span>Adaptability, Communication, Problem-solving, Teamwork</span></div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project" onclick="openModal('modal1')">
+                <h3>Tribute Page</h3>
+                <p>Created a responsive and visually appealing tribute page.</p>
+            </div>
+            <div class="project" onclick="openModal('modal2')">
+                <h3>Job Board</h3>
+                <p>Developed a platform where employers can post job openings and job seekers can apply.</p>
+            </div>
+            <div class="project" onclick="openModal('modal3')">
+                <h3>Blogging Platform</h3>
+                <p>Built a platform for creating, editing, and deleting blog posts.</p>
+            </div>
+            <div class="project" onclick="openModal('modal4')">
+                <h3>Project Management Tool</h3>
+                <p>Developed a tool for task and project management.</p>
+            </div>
+            <div class="project" onclick="openModal('modal5')">
+                <h3>Calculator</h3>
+                <p>Created a basic calculator demonstrating fundamental programming concepts.</p>
+            </div>
+            <div class="project" onclick="openModal('modal6')">
+                <h3>Portfolio</h3>
+                <p>Designed and developed a personal portfolio website.</p>
+            </div>
+            <div class="project" onclick="openModal('modal7')">
+                <h3>Landing Page</h3>
+                <p>Developed a landing page.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="my resume 1.pdf" download class="download-btn">Download My Resume</a>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: deepamjyoti12345@gmail.com</p>
+        <p>Phone: 8917607161</p>
+    </section>
+
+    
+    <footer>
+        <p>© 2024 Deepamjyoti Mohanty</p>
+    </footer>
+
+    
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h3>Tribute Page</h3>
+            <p>Details about the Tribute Page project...</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h3>Job Board</h3>
+            <p>Details about the Job Board project...</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h3>Blogging Platform</h3>
+            <p>Details about the Blogging Platform project...</p>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h3>Project Management Tool</h3>
+            <p>Details about the Project Management Tool...</p>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h3>Calculator</h3>
+            <p>Details about the Calculator project...</p>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal6')">&times;</span>
+            <h3>Portfolio</h3>
+            <p>Details about the Portfolio project...</p>
+        </div>
+    </div>
+
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal7')">&times;</span>
+            <h3>Landing Page</h3>
+            <p>Details about the Landing Page project...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
